@@ -203,11 +203,56 @@ All course-related files are organized in a shared Google Drive folder.
 
 ---
 
-### Lab 10 – Local Databases
+### Lab 09 – Advanced Navigation
+
+- **Navigation Drawer**
+
+  - Creating and customizing a side navigation drawer
+  - Adding user profile section and navigation links
+  - Handling navigation actions and route switching
+
+- **Bottom Navigation Bar**
+
+  - Implementing multi-page navigation with bottom tabs
+  - Managing navigation state using `IndexedStack`
+  - Customizing icons, labels, and themes
+
+- **Tab Navigation**
+
+  - Using `TabBar` and `TabBarView` for tab-based content
+  - Managing tabs with `DefaultTabController`
+  - Styling and customizing tab indicators
+
+- **Advanced Route Management**
+
+  - Replacing and removing routes (`pushReplacement()`, `pushAndRemoveUntil()`)
+  - Passing and receiving data between screens
+  - Adding custom page transitions with `PageRouteBuilder`
+
+- **Modern Navigation (Declarative)**
+  - Introduction to `GoRouter`
+  - Simplifying nested and parameterized routes
+
+#### Multi-Navigation Demo App
+
+- Build a **Multi-Screen App** featuring:
+  - **Navigation Drawer** for side menu
+  - **Bottom Navigation Bar** for tabbed navigation
+  - **TabBar** for categorized content
+- Demonstrate **advanced route handling** and **animated transitions**
+- Fully explained and commented code
+
+---
+
+### Lab 10 – Databases
 
 - Introduction to **SharedPreferences**
 - Maintaining App Sessions with **SharedPreferences**
 - Introduction to **SQFLite**
+- Introduction to Firebase
+  - Firebase Auth (Email/Password)
+  - Firestore Database
+  - Firebase Storage
 
 #### Expense Tracker App
 
