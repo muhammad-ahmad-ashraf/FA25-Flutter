@@ -249,10 +249,20 @@ All course-related files are organized in a shared Google Drive folder.
 - Introduction to **SharedPreferences**
 - Maintaining App Sessions with **SharedPreferences**
 - Introduction to **SQFLite**
-- Introduction to Firebase
-  - Firebase Auth (Email/Password)
-  - Firestore Database
-  - Firebase Storage
+- Overview of Firebase ecosystem and real-time capabilities
+- Setting up Firebase in a Flutter project
+- **Firebase Authentication**
+  - Implementing secure user authentication (Email & Password)
+  - Handling user registration, login, and logout
+  - Managing authentication state and protecting routes
+- **Cloud Firestore Database**
+  - Understanding collections and documents
+  - Performing CRUD operations in Firestore
+  - Structuring and querying user-specific data
+- **Firebase Storage**
+  - Uploading and retrieving files (images, documents, etc.)
+  - Linking uploaded files with Firestore records
+  - Managing secure file access using Firebase rules
 
 #### Expense Tracker App
 
